@@ -37,6 +37,8 @@ function UpdateUsersDetails({ users, setUsers, editIdx }) {
       title={"Edit The Users Details"}
       description={"We can able to edit a users detail here... "}
     >
+      <p><b>Note:</b>If you make any <b>changes</b> go to Home/Dashboard and refresh the tab to see changes...</p>
+      <br/>
       <div className="cards">
         <input
           placeholder="Enter Name"

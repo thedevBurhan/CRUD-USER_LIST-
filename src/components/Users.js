@@ -16,6 +16,8 @@ const Users = ({ users, setUsers }) => {
       title={"Users Dashboard"}
       description={"This page content all user data"}
     >
+      <p><b>Note:</b>If you make any <b>changes</b> go to Home/Dashboard and refresh the tab to see changes...</p>
+      <br/>
       <div className="card-container">
         {users.map((users, idx) => (
           <div className="card" key={idx}>
